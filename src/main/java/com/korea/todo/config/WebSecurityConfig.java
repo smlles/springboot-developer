@@ -73,7 +73,7 @@ public class WebSecurityConfig {
     				  "https://app.springbootjyh.shop"
     				  ));
       //허용할 메서드 지정
-      configuration.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE"));
+      configuration.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE","OPTIONS"));
       //허용할 헤더 지정 ("*"은 모든 헤더를 허용하겠다는 것)
       configuration.setAllowedHeaders(Arrays.asList("*"));
       //자격 증명 허용 여부
